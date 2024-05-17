@@ -1,0 +1,516 @@
+*{
+    margin: 0;
+    font-family: 'Kaisei Decol', serif;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #112F6F;
+}
+header div.menu{
+    width: 5%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+header div.menu img{
+    width: 100%;
+}
+
+header div.logo{
+    width: 15%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 35%;
+}
+header div.logo img{
+    width: 100%;
+}
+
+header div.telefone{
+    width: 18%;
+    float: left;
+    margin-top: 15px;
+    margin-left: 25%;
+}
+header div.telefone p{
+    color: azure;
+    font-size: 30px;
+}
+
+div.conteudo{
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    float: left;
+    z-index: 2;
+}
+div.image{
+    z-index: 1;
+    width: 35%;
+    margin-top: 5%;
+    float: left;
+    border-radius: 65px ;
+    overflow: hidden;
+}   
+div.image2{
+    display: none;
+}   
+
+div.image img{
+    width: 100%;
+ }
+ 
+
+div.conteudo h1{
+    color: #112F6F;
+    margin: 20px;
+}
+div.conteudo h2{
+    margin: 20px;
+}
+
+div button{
+    margin: 20px;
+    width: 250px;
+    background-color: #fff;
+    border-radius: 45px;
+    height: 40px;
+    font-size: 20px;  
+    border: solid #112F6F;  
+    cursor: pointer;
+}
+div button:hover{
+    background-color: #ccc;
+}
+
+hr{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #112F6F;
+}
+h1.titulo{
+    margin-top: 15%;
+    margin-left:10%;
+    margin-bottom: 3%;
+    color: #112F6F;
+}
+div.visao {
+    width: 100%;
+    height: 300px;
+}
+
+div.visao div.icone-visao{
+    width: 15%;
+    margin-left: 10%;
+    float: left;
+}
+
+div.visao img{
+    width: 100%;
+}
+
+.legenda{
+    width: 50%;
+    margin-left: 40%;
+    height: 200px;
+    padding:15px ;
+    border-radius: 45px;
+    box-shadow: 2px 2px 2px 2px #112F6F;
+}
+div.visao div p{
+    text-align: justify;
+}
+div.visao div h1{
+    text-align: center;
+    color: #112F6F;
+    padding-bottom: 10px;
+}
+
+div.fotos{
+    width: 30%;
+    height: 70px;
+    float: left;
+    margin: 15px 15px 15px 25px;
+    
+}
+
+div.fotos img{
+    width: 100%;
+    height: 100%;
+}
+
+div.parceiros{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: 20px;
+}
+
+div.imagens{
+    width: 29.5%;
+    height: 240px;
+    border:solid;
+    background-color: #ccc;
+    float: left;
+    border-radius: 25px;
+    margin: 15px 15px 15px 25px;
+    overflow: hidden;
+}
+div.imagens img{
+    width: 100%;
+    height: 100%;
+}
+
+form{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    width: 30%;
+    border: solid 1px #112F6F; 
+    border-radius: 25px;
+    padding: 15px;
+    float: left;
+}
+
+form label{
+    width: 100%;
+        margin: 15px;
+}
+
+form input{
+    width: 95%;
+    border: solid 2px #112F6F; 
+    border-radius: 25px;
+    margin: 15px;
+}
+
+div.vagas{
+    border: solid  3px #112F6F;
+    border-radius: 35px;
+    width: 30%;
+    float: left;
+    padding: 15px;
+}
+div.vagas h1 {
+    margin: 10px;
+    color: #112F6F;
+    text-align: center;
+}
+
+div.vagas p {
+    margin: 15px;
+    text-align: center;
+}
+
+footer{
+    width: 98.5%;
+    height: 100%;
+    background-color: #112F6F;
+    display: flex;
+    padding: 10px;
+}
+
+footer div.footer-img-logo{
+    width: 15%;
+    margin-right: 30%;
+  }
+
+footer div.footer-img{
+  width:3%;
+  margin-left: 10px;
+}
+
+footer div.footer-p{
+    margin-left: 28%;
+   color:#fff;
+  }
+
+footer div.footer-img img{
+    width: 100%;
+  }
+  a{
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .menu-selecao {
+    position: absolute;
+    border: solid #112F6F;
+    background-color: #ccc;
+    border-radius: 25px;
+    width: 25%;
+    left: -30%; /* Esconde o menu fora da tela à esquerda */
+    transition: right 0.3s ease-in-out; /* Animação para a transição */
+    }
+    .menu-selecao.mostrar {
+        left: 0; /* Mostra o menu à esquerda da página */
+    }
+    .menu-selecao.esconder {
+        left: -30%; /* esconder o menu à esquerda da página */
+    }
+  .menu-selecao h1{
+    text-align: left;
+    color: #112F6F;
+  }
+  .menu-selecao ul{
+    width: 100%;
+  }
+  .menu-selecao ul li {
+    width: 70%;
+    padding: 10px;
+    border-radius: 25px;
+  }
+  .menu-selecao ul li:hover{
+    background-color: aliceblue;
+  }
+  .menu-selecao a{
+    width: 100%;
+    color: #112F6F;
+  }
+
+  @media screen and (max-width: 500px) {
+    header{
+        width: 100%;
+        height: 60px;
+        background-color: #112F6F;
+    }
+
+    header div.menu{
+        width: 10%;
+        float: left;
+        margin-top: 15px;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+    header div.menu img{
+        width: 100%;
+    }
+    
+    header div.logo{
+        width: 38%;
+        float: left;
+        margin-top: 10px;
+        margin-left: 15%;
+    }
+    header div.logo img{
+        width: 100%;
+    }
+    
+    header div.telefone{
+        width: 32%;
+        margin-top: 15px;
+        margin-left: 1%;
+    }
+    header div.telefone p{
+        color:#fff;
+        font-size: 18px;
+    }
+
+
+    div.conteudo {
+        position: relative; /* Definir posição */
+        width:80%;
+        margin-left: 5%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        float: none; /* Você pode remover esta linha se não for necessário */
+        z-index: 2;
+    }
+    
+    div.image {
+        position: absolute; /* Alterado para relative */
+        width: 100%;
+        top: 6%;
+        float: left;
+        border-radius: 0;
+        z-index: 1;
+    }
+    
+    div.image img{
+        width: 100%;
+     }
+
+     div.image2 {
+        position: absolute; /* Alterado para relative */
+        width: 100%;
+        top: 9%;
+        float: left;
+        border-radius: 0;
+        z-index: 1;
+        display: block;
+    }
+    
+    div.image2 img{
+        width: 100%;
+        height:300px;
+
+     }
+     
+    
+    div.conteudo h1{
+        color: #112F6F;
+        margin: 10px;
+        margin-top: -8px;
+        font-size: 22px;
+    }
+    div.conteudo h2{
+        margin: 10px;
+        font-size: 18px;
+        color: #e1e4ec;
+    }
+    
+    div button{
+        margin: 20px;
+        width: 250px;
+        background-color: #fff;
+        border-radius: 45px;
+        height: 40px;
+        font-size: 20px;  
+        border: solid #112F6F;  
+        cursor: pointer;
+    }
+    div.visao img{
+        width: 100%;
+    }
+    div.visao div.icone-visao {
+        position: relative; /* Definir posição */
+        width: 25%;
+        margin-left: 42%;
+        float: none; /* Se não for necessário, você pode remover esta linha */
+        z-index: 2;
+        top: 50px;
+    }
+    
+    .legenda {
+        position: absolute; /* Definir posição */
+        width: 83%;
+        margin-left: 5%;
+        height: 200px;
+        padding: 15px;
+        border-radius: 45px;
+        box-shadow: 2px 2px 2px 2px #112F6F;
+        z-index: 3;
+        background-color: #fff;
+    }
+
+    div.fotos{
+        width: 30%;
+        height: 35px;
+        float: left;
+        margin: 15px 15px 15px 25px;
+        
+    }
+    
+    div.fotos img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    div.parceiros{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    
+        margin-bottom: 20px;
+    }
+    
+    div.imagens{
+        width: 90%;
+        height: 140px;
+        border:solid;
+        background-color: #ccc;
+        float: left;
+        border-radius: 25px;
+        margin: 15px 15px 15px 25px;
+        overflow: hidden;
+    }
+    div.imagens img{
+        width: 100%;
+        height: 100%;
+    }
+    div.vagas{
+        border: solid  3px #112F6F;
+        border-radius: 35px;
+        width: 90%;
+        float: none;
+        padding: 15px;
+    }
+    form{
+        margin-left: 5%;
+        margin-right: 10%;
+        margin-bottom: 5%;
+        width: 80%;
+        border: solid 1px #112F6F; 
+        border-radius: 25px;
+        padding: 15px;
+        float: none;
+    }
+    
+    footer div.footer-img-logo{
+        width: 10%;
+        margin-right: 35%;
+      }
+    
+    footer div.footer-img{
+      width:10%;
+      margin-left: 1%;
+    }
+    
+      footer div.footer-p{
+        margin-left: 4%;
+        color:#fff;
+        width: 24%;
+      }
+    footer div.footer-img img{
+        width: 100%;
+      }
+      a{
+        text-decoration: none;
+        color: #fff;
+      }
+
+
+      .menu-selecao {
+        z-index: 5;
+        position: absolute;
+        border: solid #112F6F;
+        background-color: #ccc;
+        border-radius: 25px;
+        width: 65%;
+        top: 9%;
+        left: -75%; /* Esconde o menu fora da tela à esquerda */
+        transition: right 0.8s ease-in-out; /* Animação para a transição */
+        }
+        .menu-selecao.mostrar {
+            left: 0; /* Mostra o menu à esquerda da página */
+        }
+      .menu-selecao h1{
+        text-align: left;
+        color: #112F6F;
+        font-size: 22px;
+      }
+      .menu-selecao ul{
+        width: 100%;
+      }
+      .menu-selecao ul li {
+        width: 70%;
+        padding: 10px;
+        border-radius: 25px;
+      }
+      .menu-selecao ul li:hover{
+        background-color: aliceblue;
+      }
+      .menu-selecao a{
+        width: 100%;
+        color: #112F6F;
+      }
+    
+}
+
+
+
