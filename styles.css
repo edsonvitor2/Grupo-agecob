@@ -208,7 +208,7 @@ div.vagas p {
 }
 
 footer{
-    width: 98.5%;
+    width: 98%;
     height: 100%;
     background-color: #112F6F;
     display: flex;
@@ -443,6 +443,7 @@ footer div.footer-img img{
         width: 90%;
         float: none;
         padding: 15px;
+        margin-left: 5px;
     }
     form{
         margin-left: 5%;
@@ -454,7 +455,13 @@ footer div.footer-img img{
         padding: 15px;
         float: none;
     }
-    
+    footer{
+        width: 96%;
+        height: 100%;
+        background-color: #112F6F;
+        display: flex;
+        padding: 10px;
+    }
     footer div.footer-img-logo{
         width: 10%;
         margin-right: 35%;
